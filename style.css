@@ -1,0 +1,57 @@
+html {
+    font-size: 10px;
+    font-family: '清松手寫體1';
+    src: url('清松手寫體1.tff') format("truetype"); /*字體*/
+    background-image: url('BG.png'); /*背景圖片*/
+    background-size: 100% 100%;/*背景圖片100%填充*/
+  }
+
+body {
+    width: 800px; /*寬度*/
+    margin: 0 auto; /*頂部、左右側（auto自動均分）*/
+    padding: 0 20px 20px 20px; /*設定邊界*/
+}
+
+h1 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black; /*字體陰影（水平偏移、垂直偏移、模糊半徑、陰影基本色）*/
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+nav{
+    font-size: 18px;
+    text-align: right;
+}
+
+main{
+    font-size: 22px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+img { /*圖片水平置中*/
+    display: block;/*顯示模式：*/
+    margin: auto; /*水平置中*/
+  }
+
+a .dfo_photo{
+    display: block;/*顯示模式：*/
+    margin: auto; /*水平置中*/
+    width: 500px;
+}
